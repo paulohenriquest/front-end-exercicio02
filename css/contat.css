@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+    font-family: arial;
+}
+
+
+.text-esquerda {
+    position: absolute;
+    bottom: -125px;
+    margin: 5px;
+}
+
+.texto {
+    margin-top: 310px;
+    margin-left: 145px;
+}
+
+h3 {
+    font-size: 45px;
+}
+
+p {
+    margin-top: 15px;
+}
+
+.logo {
+    float: left;
+    margin-right: 50px;
+}
+
+.contato {
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 3px white;
+    /* border: 2px solid black; */
+    margin: 0 auto;
+    margin-top: -80px;
+    /* position: absolute; */
+    position: initial;
+    width: 350px;
+    top: 100px;
+    right: auto;
+    text-align: center;
+    font-size: 1.9rem;
+    background: #00000091;
+    color: white;
+}
+
+.contato label, .cotato textarea {
+    display: block;
+    width: 100%;
+}
+    
+    
+.contato input, .contato textarea {
+    border-radius: 20px;
+    border: none;
+    padding: 5px;
+    outline: none;
+    width: 75%;
+    font-size: 1.3rem;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/* ao clicar muda a cor das caixas intup */
+
+.contato input:focus, .contato textarea:focus {
+    transition: 0.7s all;
+    background-color: rgb(148, 148, 184);
+    color: white;
+}
+
+.contato input:focus, .contato textarea:hover {
+    transition: 0.7s all;
+    background-color: rgb(168, 219, 214);
+    color: white;
+}    
+
+.contato textarea {
+    height: 150px;
+    text-align: center;
+    margin: 0 auto;
+    outline: none;
+}
+
+.cabecalho {
+    font-size: 18px;
+    padding: 25px;
+    color: white;
+    background: black;
+    margin: 0 auto;
+    width: 85%;
+    z-index: 2;
+    position: absolute;
+    top: 25px;
+    left: 6.0%;
+}
+
+.cabecalho ul {
+    height: auto;
+    opacity: 0.6;
+    padding: 15px;
+    /* margin-left: 180px; */
+}
+
+.cabecalho a {
+        display: inline;
+        text-decoration: none;
+        color: white;
+        font-weight: 500;
+}
+
+.menu {
+    float: left;
+    width: auto;
+}
+
+.menu li {
+    color: white;
+    list-style: none;
+    list-style-type: none;
+    display: inline-block;
+    letter-spacing: 1.5px;
+    margin-right: 13px;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-top: -8px;
+    border-radius: 25px;
+    transition: 0.7s all;
+}
+
+

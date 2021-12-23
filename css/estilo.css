@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+    font-family: arial;
+}
+
+.text-esquerda {
+    position: absolute;
+    bottom: -125px;
+    margin: 5px;
+}
+
+.texto {
+    margin-top: 310px;
+    margin-left: 145px;
+}
+
+h3 {
+    font-size: 45px;
+}
+
+p {
+    margin-top: 15px;
+}
+
+.logo {
+    float: left;
+    margin-right: 50px;
+}
+
+.cabecalho {
+    font-size: 18px;
+    padding: 25px;
+    color: white;
+    background: black;
+    margin: 0 auto;
+    width: 85%;
+    z-index: 2;
+    position: absolute;
+    top: 25px;
+    left: 6.0%;
+}
+
+.cabecalho ul {
+    height: auto;
+    opacity: 0.6;
+    padding: 15px;
+    /* margin-left: 180px; */
+}
+
+.cabecalho a {
+        display: inline;
+        text-decoration: none;
+        color: white;
+        font-weight: 500;
+}
+
+.menu {
+    float: left;
+    width: auto;
+}
+
+.menu li {
+    color: white;
+    list-style: none;
+    list-style-type: none;
+    display: inline-block;
+    letter-spacing: 1.5px;
+    margin-right: 13px;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-top: -8px;
+    border-radius: 25px;
+    transition: 0.7s all;
+}
+
+i {
+    float: right;
+    margin-left: 900px
+}
+
+/* .cabecalho a:hover {
+    transition: 0.7s all;
+    color: rgb(6, 100, 89);
+} */
+
+.corpo {
+    color: white;
+    background-color: red;
+    /* margin-top: 260px;
+    padding: 10px 10px 25px 10px; */
+}
+
+}
+
+.main {
+    color: white;
+    margin-top: 150px;
+    padding: 10px 10px 0px 25px;
+}
+
+.submit {
+    margin-top: 25px;
+    padding: 10px 30px;
+    font-size: larger;
+    border-radius: 25px;
+    color: white;
+    background: black;
+}
+
+.img {
+    background: url('https://cdn.wizard.com.br/wp-content/uploads/2020/12/17203834/as-tradicoes-de-natal-mais-diferentes-do-mundo.png');
+    width: 35%;
+    height: 600px;
+    float: right;
+}
+
+.esquerda {
+    background: rgb(171, 204, 53);
+    width: 65%;
+    height: 600px;
+    display: inline-block;
+}
+
+
+

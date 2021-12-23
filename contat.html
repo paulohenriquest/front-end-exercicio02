@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="css/contat.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula02</title>
+</head>
+<body>
+    
+    <div class="corpo">
+        <div class="esquerda">
+            <div class="texto">
+                <h3> Entre em contato conosco.</h3>
+                <p>Preencha o formulário.</p>
+                <!-- <button type="button" onclick="submit ()" class="submit">Get Started</button> -->
+            </div>
+        </div>
+        <div class="img"></div>
+        <header class="cabecalho">
+            <nav>
+                <ul>
+                    <a href="#" class="logo">MARCA</a>
+                    <div class="menu">
+                        <a href="index"><li>Home</li></a>
+                        <a href="categoria"><li class="ativo">Categories</li></a>
+                        <a href="contat"><li>Contat</li></a>
+                        <a href="about"><li>About</li></a>
+                        <i class="fas fa-search"></i>
+                    </div>
+                </ul>
+            </nav>
+        </header>
+       
+    </div>
+    <form id="contato" class="contato">
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="nome" required placeholder="Nome">                                                                                            
+        <label for="cidade">Cidade</label>
+        <input type="text" id="cidade" name="cidade" required placeholder="Cidade"> 
+        <label for="estado">Estado</label>
+        <input type="text" id="estado" name="estado" required placeholder="Estado">
+        <label for="email">Email</label>
+        <input type="mail" id="email" name="email" required placeholder="Email">
+        <label for="telefone">Telefone</label>
+        <input type="tel" id="telefone" name="telefone" required placeholder="Telefone">
+        <label for="mensagem">Mensagem</label>
+        <textarea id="mensagem" name="mensagem" required placeholder=""></textarea>
+        <input type="submit" name="enviar" class="enviar" value="Enviar">
+    </form>
+    
+</body>
+</html>
